@@ -18,3 +18,11 @@
 3. add "node_modules/bootstrap/dist/css/bootstrap.min.css" to "styles" in angular.json
 4. ng g c recipes --skipTests true (do not generate the test file)
 5. ng g c recipes/recipe-list --skipTests true (in sub folder)
+#### Components&Databinding
+1. @Input(): from parent to child (itself); @Output(): from child (itself) to parent
+2. view encapsulation: 'Emulated' is default (style scope is component), 'None' means style scope is global
+3. Local reference: eg. serverNameInput refer the element
+4. @ViewChild(): access DOM
+5. ng-content: project content into components
+6. @ContentChild()
+7. Lifecycle
